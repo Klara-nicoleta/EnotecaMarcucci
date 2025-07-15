@@ -1,0 +1,31 @@
+[
+    {
+        "date": "2025-07-15 12:23",
+        "assignments": {
+            "Marco": "Chiusura Lavaggio",
+            "Luigi": "Pulire Cenci",
+            "Edoardo 1": "Posate"
+        }
+    },
+    {
+        "date": "2025-07-15 12:31",
+        "assignments": {
+            "Klara": [
+                "Chiusura Lavaggio",
+                "Posate"
+            ],
+            "Edoardo 1": [
+                "Bar"
+            ],
+            "Edoardo 2": [
+                "Pulire Cenci"
+            ],
+            "Andrea": [
+                "Bicchieri"
+            ],
+            "Walter": [
+                "Gheridon"
+            ]
+        }
+    }
+]
