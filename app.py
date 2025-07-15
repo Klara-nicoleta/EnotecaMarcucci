@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Names and tasks
 names = ["Klara", "Marco", "Luigi", "Edoardo 1", "Edoardo 2", "Andrea", "Walter", "Matteo"]
-tasks = ["Bicchieri", "Bar", "Posate", "Pulire Cenci", "Chiusura Lavaggio", "Gheridon"]
+tasks = ["Bicchieri", "Posate", "Pulire Cenci", "Spazzatura Lavaggio", "Gheridon", "Macchina del caffe", "Sistemare cestini del pane"]
 
 # History
 HISTORY_FILE = "assignments.json"
