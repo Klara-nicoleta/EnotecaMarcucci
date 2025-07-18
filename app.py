@@ -1,3 +1,6 @@
+
+
+
 import streamlit as st
 import json
 import random
@@ -107,3 +110,25 @@ if history:
             st.write(f" - {worker}: {tasks_str}")
 else:
     st.write("Nessuno storico ancora.")
+
+
+
+
+#connecting to google sheets
+import gspread
+from google.oauth2.service_account import Credentials
+import streamlit as st
+import json
+
+# Load Google service account from Streamlit secrets
+creds_dict = st.secrets["google_service_account"]
+creds = Credentials.from_service_account_info(dict(creds_dict))
+client = gspread.authorize(creds)
+
+# Open your sheet by name
+sheet = client.open("restaurant-config").sheet1  # or use .worksheet("Sheet1")
+
+# Read names from column A and tasks from column B
+names = [cell for cell in sheet.col_values(1) if cell.strip()]
+tasks = [cell for cell in sheet.col_values(2) if cell.strip()]
+
