@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 
 # Names and tasks
-names = ["Klara", "Marco", "Luigi", "Edoardo O", "Edoardo G", "Andrea", "Walter", "Matteo", "Gioel"]
+names = ["Klara", "Marco", "Luigi", "Edoardo O", "Edoardo G", "Andrea", "Walter", "Matteo", "Gioel", "Gaia"]
 tasks = ["Bicchieri", "Posate", "Pulire Cenci", "Spazzatura Lavaggio", "Gheridon", "Macchina del caffe", "Sistemare cestini del pane"]
 
 # History
